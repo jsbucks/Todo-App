@@ -84,7 +84,6 @@ const TodoForm = ({ addTodo }) => {
       <input
         className="form-control col-md-12"
         ref={node => {
-          console.log("node ::: ", node);
           input = node;
         }}
       />
